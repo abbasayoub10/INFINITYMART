@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFINITY MART</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f1e6;
+            color: #8b6f47;
+        }
+        header {
+            background-color: #d4af37;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #a68a5d;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 200px;
+        }
+        footer {
+            background-color: #d4af37;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        INFINITY MART
+    </header>
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#products">المنتجات</a>
+        <a href="#about">من نحن</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+    <div class="container" id="home">
+        <h1>مرحبًا بكم في INFINITY MART</h1>
+        <p>اكتشفوا مجموعتنا المميزة من الإكسسوارات والساعات والحقائب.</p>
+    </div>
+    <div class="container" id="products">
+        <h2>منتجاتنا</h2>
+        <div class="products">
+            <div class="product">
+                <h3>ساعة أنيقة</h3>
+                <p>ساعة يد فاخرة بتصميم عصري.</p>
+            </div>
+            <div class="product">
+                <h3>حقيبة جلدية</h3>
+                <p>حقيبة أنيقة مصنوعة من الجلد الفاخر.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <h2>من نحن</h2>
+        <p>نحن INFINITY MART، نقدم لكم أفضل الإكسسوارات بأجود الخامات.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>اتصل بنا</h2>
+        <p>يمكنكم التواصل معنا عبر البريد الإلكتروني أو الهاتف.</p>
+    </div>
+    <footer>
+        &copy; 2025 INFINITY MART - جميع الحقوق محفوظة
+    </footer>
+</body>
+</html>
